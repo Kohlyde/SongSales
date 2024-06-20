@@ -1,0 +1,1840 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A sample website with Bootstrap 4" />
+    <meta name="author" content="Your Name" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="keywords"
+      content="web design, bootstrap 4, sample website, social media, HTML, CSS, JavaScript"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sample Website" />
+    <meta
+      property="og:description"
+      content="A sample website with Bootstrap 4"
+    />
+    <meta property="og:url" content="http://example.com" />
+    <meta property="og:image" content="http://example.com/image.jpg" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Sample Website" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sample Website" />
+    <meta
+      name="twitter:description"
+      content="A sample website with Bootstrap 4"
+    />
+    <meta name="twitter:url" content="http://example.com" />
+    <meta name="twitter:image" content="http://example.com/image.jpg" />
+    <meta name="twitter:site" content="@yoursite" />
+    <meta name="twitter:creator" content="@yourname" />
+
+    <!-- Google+ / Schema.org -->
+    <meta itemprop="name" content="Sample Website" />
+    <meta itemprop="description" content="A sample website with Bootstrap 4" />
+    <meta itemprop="image" content="http://example.com/image.jpg" />
+
+    <!-- LinkedIn -->
+    <meta property="og:title" content="Sample Website" />
+    <meta property="og:image" content="http://example.com/image.jpg" />
+    <meta
+      property="og:description"
+      content="A sample website with Bootstrap 4"
+    />
+    <meta property="og:url" content="http://example.com" />
+
+    <!-- Pinterest -->
+    <meta name="pinterest-rich-pin" content="true" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Sample Website" />
+    <meta
+      property="og:description"
+      content="A sample website with Bootstrap 4"
+    />
+    <meta property="og:url" content="http://example.com" />
+    <meta property="og:image" content="http://example.com/image.jpg" />
+
+    <!-- Instagram -->
+    <meta property="og:title" content="Sample Website" />
+    <meta property="og:image" content="http://example.com/image.jpg" />
+    <meta
+      property="og:description"
+      content="A sample website with Bootstrap 4"
+    />
+    <meta property="og:url" content="http://example.com" />
+
+    <!-- Other Meta Tags -->
+    <meta name="application-name" content="Sample Website" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="http://example.com/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="Sample Website" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- Favicon and Touch Icons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="http://example.com/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="http://example.com/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="http://example.com/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="http://example.com/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="http://example.com/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="http://example.com/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="http://example.com/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="http://example.com/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="http://example.com/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="http://example.com/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="http://example.com/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="http://example.com/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="http://example.com/favicon-16x16.png"
+    />
+    <link rel="manifest" href="http://example.com/manifest.json" />
+
+    <title>Sample Website</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: "Rubik", sans-serif;
+        background-color: #24292e;
+        overflow: hidden;
+      }
+
+      .navbar-main {
+        background-color: #1d2125;
+      }
+
+      .navbar-main .nav-link {
+        color: #24292e;
+      }
+
+      .navbar-main .nav-link:hover {
+        color: #ffffff;
+      }
+
+      .navbar-main .active {
+        background-color: #24292e;
+      }
+
+      .navbar-toggler {
+        border-color: rgba(0, 0, 0, 0);
+      }
+
+      .scrolling-nav {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 250px;
+        height: calc(100vh - 80px);
+        overflow-y: hidden;
+        transition: overflow-y 0.3s ease-in-out;
+      }
+
+      .scrolling-nav:hover {
+        overflow-y: auto;
+      }
+
+      .scrolling-nav::-webkit-scrollbar {
+        width: 5px;
+      }
+
+      .scrolling-nav::-webkit-scrollbar-thumb {
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 10px;
+      }
+
+      .scrolling-nav::-webkit-scrollbar-thumb:hover {
+        background-color: rgba(255, 255, 255, 0.7);
+      }
+
+      .scrolling-nav .nav-link {
+        font-size: 12px;
+        /* Smaller font size */
+        color: #ffffff;
+        /* White color */
+        text-overflow: ellipsis;
+        /* Truncation */
+        white-space: nowrap;
+        overflow: hidden;
+      }
+
+      .scrolling-nav .nav-link:hover {
+        color: #007bff;
+        /* Blue on hover */
+      }
+
+      .fixed-player-container {
+        position: fixed;
+        top: 80px;
+        right: 0;
+        width: calc(100% - 250px);
+        height: calc(100vh - 80px);
+        background-color: #1d2125;
+        overflow-y: auto;
+        padding: 10px;
+      }
+
+      .player-wrapper {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
+      .soundcloud-player {
+        flex: 1;
+        height: 120px;
+      }
+
+      .paypal-button-container {
+        width: 120px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        /* Semi-transparent white */
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      .paypal-button-container svg {
+        width: 100%;
+        height: 100%;
+      }
+
+      .paypal-button-container:hover {
+        background-color: rgba(255, 255, 255, 0.7);
+      }
+
+      .no-js-message {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #f44336;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        z-index: 1000;
+      }
+
+      .no-js-message.active {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- No JS Message -->
+    <!-- <div id="no-js-message" class="no-js-message">
+      Please enable JavaScript and disable your ad blocker to use this site.
+    </div> -->
+
+    <!-- Main Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-main">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#music">Music</a>
+          <a class="nav-link" href="#sample-packs">Sample Packs</a>
+          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link" href="tel:+123456789"
+            ><i class="fas fa-phone"></i
+          ></a>
+          <a class="nav-link" href="mailto:example@gmail.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
+          <a class="nav-link" href="mailto:example@outlook.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
+          <a class="nav-link" href="https://github.com"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a class="nav-link" href="https://facebook.com"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a class="nav-link" href="https://edmc.com"
+            ><i class="fas fa-record-vinyl"></i
+          ></a>
+          <a class="nav-link" href="https://twitter.com"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a class="nav-link" href="https://instagram.com"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a class="nav-link" href="https://codepen.io"
+            ><i class="fab fa-codepen"></i
+          ></a>
+          <a class="nav-link" href="https://stackexchange.com"
+            ><i class="fab fa-stack-exchange"></i
+          ></a>
+          <a class="nav-link" href="https://tiktok.com"
+            ><i class="fab fa-tiktok"></i
+          ></a>
+          <a class="nav-link" href="https://google.com"
+            ><i class="fab fa-google"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Scrolling Navigation -->
+    <div class="scrolling-nav">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/2024-oasis-music-festival-artists-submission-kohlyde"
+            >2024 Oasis Music Festival Artists Submission Kohlyde</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/21-savage-x-acapella-coalesce-remix"
+            >21 Savage X Acapella Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/a-link-to-vergangenheit"
+            >A Link To Vergangenhiet</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/albums"
+            >Albums</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/animal-side"
+            >Animal Side</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/announcement-from-kohlyde-2024"
+            >Announcement From Kohlyde 2024</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/answers-experimental-lofi-deep-dark-dubstep"
+            >Answers Experimental Lofi Deep Dark Dubstep</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/artist-plate"
+            >Artist Plate</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/ayahuasca"
+            >Ayahuasca</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/b-real-ft-son-doobie-filthee-no-model-coalesce-remix"
+            >B Real Ft Son Doobie Filthee No Model Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/batty-thing-mavato-coalesce-remix"
+            >Batty Thing Mavato Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/bill-grippin-deep-heads-silver"
+            >Bill Grippin Deep Heads Silver</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/bound"
+            >Bound</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/breaking-ranks"
+            >Breaking Ranks</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/breaking-ranks-1"
+            >Breaking Ranks 1</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/can-i-assist-hiding-bodies"
+            >Can I Assist Hiding Bodies</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/cant-get-enough-of-your-love-babe-barry-white-coalesce-remix"
+            >Cant Get Enough Of Your Love Babe Barry White Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/capenta"
+            >Capenta</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/capricorn-forfeiture-2024-zodiac-stories"
+            >Capricorn Forfeiture 2024 Zodiac Stories</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/cauterized"
+            >Cauterized</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/closer"
+            >Closer</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/cocaine-sex"
+            >Cocaine Sex</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/cold-full-moon-d-minor-guitar-backing-track-live-pa"
+            >Cold Full Moon D Minor Guitar Backing Track Live Pa</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/cold-full-moon-e-flat-major-guitar-backing-track-live-pa-song-2"
+            >Cold Full Moon E Flat Major Guitar Backing Track Live Pa Song 2</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/cold-full-moon-feat-andrea-krux-e-flat-major-guitar-backing-track-live-pa-song-3"
+            >Cold Full Moon Feat Andrea Krux E Flat Major Guitar Backing Track
+            Live Pa Song 3</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/consensual-computing"
+            >Consensual Computing</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/creep-tlc-coalesce-remix"
+            >Creep Tlc Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/creeper-feat-crickets-horsebend-idaho-july-2nd-2023"
+            >Creeper Feat Crickets Horsebend Idaho July 2nd 2023</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/cryosphere"
+            >Cryosphere</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/curfew"
+            >Curfew</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/dark-riddle"
+            >Dark Riddle</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/deep-ship-1"
+            >Deep Ship 1</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/deep-space-one"
+            >Deep Space One</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/deeply"
+            >Deeply</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/delirious"
+            >Delirious</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/deskrtop-2nd-durtee-stem"
+            >Deskrtop 2nd Durtee Stem</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/dexters-lab-snow-moon-february-23-24th-song-selection"
+            >Dexters Lab Snow Moon February 23 24th Song Selection</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/die"
+            >Die</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/disco-experimental"
+            >Disco Experimental</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/dj-1"
+            >Dj 1</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/dnb-wednesday-ep-12-part-4-coalesce"
+            >Dnb Wednesday Ep 12 Part 4 Coalesce</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/dorthy"
+            >Dorthy</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/dragon-from-shaolin"
+            >Dragon From Shaolin</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/eastern"
+            >Eastern</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/enter-the-dojo"
+            >Enter The Dojo</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/ewok-suite-john-williams-coalesce-remix"
+            >Ewok Suite John Williams Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/exeriments-n-stuff-v-5"
+            >Exeriments N Stuff V 5</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/experiment"
+            >Experiment</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/experimental"
+            >Experimental</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/experimental-1"
+            >Experimental 1</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/eye-in-the-sky-alan-parsons-project-coalesce-remix"
+            >Eye In The Sky Alan Parsons Project Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/family-and-loyalty-gangstarr-coalesce-remix"
+            >Family And Loyalty Gangstarr Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/flicker2"
+            >Flicker2</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/fn-mad"
+            >Fn Mad</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/followers"
+            >Followers</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/following"
+            >Following</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/fractur3"
+            >Fractur3</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/future-disco-experimental-coalesce-remix"
+            >Future Disco Experimental Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/future-experimental"
+            >Future Experimental</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/game-over"
+            >Game Over</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/gaspedal-sage-the-gemni-coalesce-remix"
+            >Gaspedal Sage The Gemni Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/it-1"
+            >It 1</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/its-fascinating"
+            >Its Fascinating</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/jazz-techno-experimental"
+            >Jazz Techno Experimental</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/just-drive"
+            >Just Drive</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/just-to-get-a-rap-gang-star-coalesce-remix"
+            >Just To Get A Rap Gang Star Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/kohlyde-early-summer-mix-drum-and-bass-mix-short-2024-06-17"
+            >Kohlyde Early Summer Mix Drum And Bass Mix Short 2024 06 17</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/last-night"
+            >Last Night</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/left-mad"
+            >Left Mad</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/leo-lazy-elderly-oldtimer-2024-zodiac-stories"
+            >Leo Lazy Elderly Oldtimer 2024 Zodiac Stories</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/libra-kick-rocks-2024-zodic-stories"
+            >Libra Kick Rocks 2024 Zodic Stories</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/light-your-a-on-fire-busta-rhymes-coalesce-remix"
+            >Light Your A On Fire Busta Rhymes Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/like-a-prayerv-madona-kohlyde-remix"
+            >Like A Prayerv Madona Kohlyde Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/like-we-used-to"
+            >Like We Used To</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/limb-by-limb-curtty-ranks-coalesce-remix"
+            >Limb By Limb Curtty Ranks Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/love-lies-khalid-normani-coalesce-remix"
+            >Love Lies Khalid Normani Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/lsd-25"
+            >LSD 25</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/mad-dog-v2"
+            >Mad Dog V2</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/make-you-cry"
+            >Make You Cry</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/men-at-work"
+            >Men At Work</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/more-tamina-kohlyde-remix"
+            >More Tamina Kohlyde Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/nasty-girl-notorious-big-coalesce-remix"
+            >Nasty Girl Notorious Big Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/needs"
+            >Needs</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/neuro-bass"
+            >Neuro Bass</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/neuro-experimental"
+            >Neuro Experimental</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/never-stop-a-great-man"
+            >Never Stop A Great Man</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/night-vision"
+            >Night Vision</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/no-land"
+            >No Land</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/no-mercy"
+            >No Mercy</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/nobody"
+            >Nobody</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/noir"
+            >Noir</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/not-the-same"
+            >Not The Same</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/null"
+            >Null</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/odd-cht"
+            >Odd Cht</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/on-the-line"
+            >On The Line</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/one-time"
+            >One Time</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/parliament-mix-may-2024-deep-dubstep"
+            >Parliament Mix May 2024 Deep Dubstep</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/pinched"
+            >Pinched</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/pisces-coalesce-2024-zodiac-stories"
+            >Pisces Coalesce 2024 Zodiac Stories</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/pisces-zodiac-stories-2024"
+            >Pisces Zodiac Stories 2024</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/popular-tracks"
+            >Popular Tracks</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/prodigy-power-raps-coalesceremix"
+            >Prodigy Power Raps Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/puddle"
+            >Puddle</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/rastafarian-time"
+            >Rastafarian Time</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/recycle"
+            >Recycle</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/return-to-oz-monolink-coalesce-remix"
+            >Return To Oz Monolink Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/reuping-please"
+            >Reuping Please</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/riptide"
+            >Riptide</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/sagittarius-moonwalker-2024-zodiac-stories"
+            >Sagittarius Moonwalker 2024 Zodiac Stories</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/satisfaction-benny-benassi-coalesce-remix"
+            >Satisfaction Benny Benassi Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/satisfaction-pre-release"
+            >Satisfaction Pre Release</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/sets"
+            >Sets</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/shortest-day-of-the-year-live-at-the-lounge-at-the-end-of-the-universe"
+            >Shortest Day Of The Year Live At The Lounge At The End Of The
+            Universe</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/shortest-day-of-the-year-live-at-the-lounge-at-the-end-of-the-universe-2-hours-part-2"
+            >Shortest Day Of The Year Live At The Lounge At The End Of The
+            Universe 2 Hours Part 2</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/snowflake"
+            >Snowflake</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/soren-4"
+            >Soren 4</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/sorens"
+            >Sorens</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/sorens-2"
+            >Sorens 2</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/sorens-3"
+            >Sorens 3</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/sorens-5"
+            >Sorens 5</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/stayin-alive-bee-gees-coalesce-remix-1"
+            >Stayin Alive Bee Gees Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/steppin"
+            >Steppin</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/tamuz"
+            >Tamuz</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/tech-n9ne-feat-2-chainz-bob-hood-go-crazy-coalesce-remix"
+            >Tech N9ne Feat 2 Chainz Bob Hood Go Crazy Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/technoir"
+            >Technoir</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/tha-squeeze-gang-starr-coalesce-remix"
+            >Tha Squeeze Gang Starr Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/the-battle-of-stalingrad"
+            >The Battle Of Stalingrad</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/the-cheesiest-mac-attack"
+            >The Cheesiest Mac Attack</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/the-conjurer"
+            >The Conjurer</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/the-danger"
+            >The Danger</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/the-hunter-and-the-raven"
+            >The Hunter And The Raven</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/the-inheritors-11th-hour-coalesce-remix"
+            >The Inheritors 11th Hour Coalesce Remix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/the-mistake"
+            >The Mistake</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/this-one"
+            >This One</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/tinpan-alley-changes-stevie-ray-vaughn-tu-pac-coalesce-remix-live-pa"
+            >Tinpan Alley Changes Stevie Ray Vaughn Tu Pac Coalesce Remix Live
+            Pa</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/tone-abstract-the-beat-wont-stop"
+            >Tone Abstract The Beat Wont Stop</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/tracks"
+            >Tracks</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/tracks#"
+            >Tracks#</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/traction"
+            >Traction</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/tuesday-2024-feb-27-mix"
+            >Tuesday 2024 Feb 27 Mix</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/twst-and-shout-coalesce-remis"
+            >Twst And Shout Coalesce Remis</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/unforgivable"
+            >Unforgivable</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/unleveraged"
+            >Unleveraged</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/untitled-1"
+            >Untitled 1</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/virgo-opposition-2024-zodiac-stories"
+            >Virgo Opposition 2024 Zodiac Stories</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/vogue-remix2"
+            >Vogue Remix2</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/were-already-dead"
+            >Were Already Dead</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/what-the-f-k-do-djs-1"
+            >What The F K Do Djs 1</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/what-the-f-k-do-djs-2"
+            >What The F K Do Djs 2</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/what-the-f-k-do-djs-3"
+            >What The F K Do Djs 3</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/what-the-f-k-do-djs-4"
+            >What The F K Do Djs 4</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/what-the-f-k-do-djs-5"
+            >What The F K Do Djs 5</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/what-the-f-k-do-djs-6"
+            >What The F K Do Djs 6</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/what-the-f-k-do-djs-7"
+            >What The F K Do Djs 7</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/what-the-f-k-do-djs-8"
+            >What The F K Do Djs 8</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/what-the-f-k-do-djs-actualluy"
+            >What The F K Do Djs Actualluy</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/what-the-fk-do-djs-actualluy-do"
+            >What The Fk Do Djs Actualluy Do</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/who-wil-lead-us"
+            >Who Wil Lead Us</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/worth-something"
+            >Worth Something</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/worth-something-performance"
+            >Worth Something Performance</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/worth-something-v2-performance-intro"
+            >Worth Something V2 Performance Intro</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/yeah-no"
+            >Yeah No</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/you-are-dj-now"
+            >You Are Dj Now</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link song-link"
+            href="#"
+            data-track-url="https://soundcloud.com/user-999486594/you-had-your-chance-my-turn-to-play"
+            >You Had Your Chance My Turn To Play</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <!-- Fixed SoundCloud Player Container -->
+    <div class="fixed-player-container">
+      <!-- Initially add the first track "LSD 25" -->
+      <div class="player-wrapper">
+        <iframe
+          class="soundcloud-player"
+          width="100%"
+          height="120"
+          scrolling="no"
+          frameborder="no"
+          allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/user-999486594/lsd-25&color=%23ff5500&inverse=false&auto_play=true&show_user=true"
+        >
+        </iframe>
+        <div
+          class="button-container"
+          style="display: flex; align-items: center; gap: 10px"
+        >
+          <!-- White Square with $1.99 -->
+          <div
+            class="white-square"
+            style="
+              width: 120px;
+              height: 120px;
+              background-color: white;
+              border-radius: 10px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <span
+              style="
+                font-family: 'Arial', sans-serif;
+                font-size: 24px;
+                padding: 10px;
+              "
+              >$1.99</span
+            >
+          </div>
+
+          <!-- PayPal Button -->
+          <div
+            class="paypal-button-container"
+            style="
+              width: 120px;
+              height: 120px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: rgba(255, 255, 255, 0.5);
+              border-radius: 10px;
+              cursor: pointer;
+              border: 2px solid black;
+            "
+          >
+            <img
+              src="/PayPal-Logo(5).png"
+              alt="PayPal Logo"
+              style="max-width: 100%; max-height: 100%; padding: 10px"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      function showNoJsMessage() {
+        document.getElementById("no-js-message").classList.add("active");
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        if (!navigator.cookieEnabled) {
+          showNoJsMessage();
+        }
+      });
+
+      document.querySelectorAll(".song-link").forEach((link) => {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+          const trackUrl = this.getAttribute("data-track-url");
+          const trackId = trackUrl.split("/").pop();
+          const playerContainer = document.querySelector(
+            ".fixed-player-container"
+          );
+          const playerWrapper = document.createElement("div");
+          playerWrapper.classList.add("player-wrapper");
+          const iframe = document.createElement("iframe");
+          iframe.classList.add("soundcloud-player");
+          iframe.width = "100%";
+          iframe.height = "120";
+          iframe.scrolling = "no";
+          iframe.frameBorder = "no";
+          iframe.allow = "autoplay";
+          iframe.src = `https://w.soundcloud.com/player/?url=${encodeURIComponent(
+            trackUrl
+          )}&color=%23ff5500&inverse=false&auto_play=true&show_user=true`;
+
+          // PayPal button container
+          const paypalContainerId = `paypal-button-container-${trackId}`;
+          const paypalButtonContainer = document.createElement("div");
+          paypalButtonContainer.id = paypalContainerId;
+          paypalButtonContainer.classList.add("paypal-button-container");
+          paypalButtonContainer.innerHTML = `<div class="player-wrapper">
+        <iframe class="soundcloud-player" width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/user-999486594/lsd-25&color=%23ff5500&inverse=false&auto_play=true&show_user=true">
+        </iframe>
+        <div class="button-container" style="display: flex; align-items: center; gap: 10px;">
+         <!-- White Square with $1.99 -->
+          <div class="white-square"
+             style="width: 120px; height: 120px; background-color: white; border-radius: 10px; display: flex; justify-content: center; align-items: center;">
+             <span style="font-family: 'Arial', sans-serif; font-size: 24px; padding: 10px;">$1.99</span>
+        </div>
+
+        <!-- PayPal Button -->
+         <div class="paypal-button-container"
+              style="width: 120px; height: 120px; display: flex; justify-content: center; align-items: center; background-color: rgba(255, 255, 255, 0.5); border-radius: 10px; cursor: pointer; border: 2px solid black;">
+           <img src="/PayPal-Logo(5).png" alt="PayPal Logo" style="max-width: 100%; max-height: 100%; padding: 10px;">
+        </div>
+  </div>
+
+        `;
+
+          playerWrapper.appendChild(iframe);
+          playerWrapper.appendChild(paypalButtonContainer);
+
+          // Stop all other iframes
+          const iframes = playerContainer.querySelectorAll("iframe");
+          iframes.forEach((player) => {
+            player.contentWindow.postMessage('{"method":"pause"}', "*");
+          });
+
+          // Add new player at the top
+          playerContainer.prepend(playerWrapper);
+        });
+      });
+
+      // Show the no-JS message if JavaScript is disabled
+      document.getElementById("no-js-message").classList.add("active");
+    </script>
+  </body>
+</html>
