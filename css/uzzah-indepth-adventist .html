@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and Image Player</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        img {
+            width: 300px;
+            height: auto;
+            margin-top: 20px;
+        }
+        #audioPlayer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Audio and Image Player</h1>
+    
+    <!-- Audio Player -->
+    <audio id="audioPlayer" controls loop>
+        <source src="your-audio-file.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- Image Display -->
+    <img id="imageDisplay" src="your-image-file.jpg" alt="Display Image">
+    
+    <script>
+        // JavaScript to handle dynamic audio and image changes (if needed)
+        const audioPlayer = document.getElementById('audioPlayer');
+        const imageDisplay = document.getElementById('imageDisplay');
+        
+        // Function to update audio source
+        function updateAudioSource(newSource) {
+            audioPlayer.src = newSource;
+            audioPlayer.play();
+        }
+        
+        // Function to update image source
+        function updateImageSource(newImage) {
+            imageDisplay.src = newImage;
+        }
+        
+        // Example usage
+        updateAudioSource('another-audio-file.mp3');
+        updateImageSource('another-image-file.jpg');
+    </script>
+</body>
+</html>

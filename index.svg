@@ -1,0 +1,310 @@
+<html>
+<svg class="svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" fill="#F24405" xml:space="preserve">
+  <style type="text/css">
+    html {
+
+      margin: 0px;
+      padding: 0px opx;
+      background-color: #21232b !important;
+
+    }
+
+    .svg {  stroke: #ffffff;
+      stroke-width: 1.5px;
+      stroke-dasharray: 100;
+      
+      margin: 0px;
+      padding: 0px opx;
+      fill: #F24405 !important;
+    }
+
+    .st0 {  stroke: #ffffff;
+      stroke-width: 1.5px;
+      stroke-dasharray: 100;
+      stroke-dashoffset: 4000;
+      animation: object-0 100s linear normal infinite, gofast 5s linear forwards infinite;
+    }
+
+    .st1 {  stroke: #ffffff;
+      stroke-width: 1.5px;
+      stroke-dasharray: 100;
+      stroke-dashoffset: 4000;
+      animation: object-1 80s linear infinite, gofast 5s linear forwards infinite;
+      transform: translate(0px, 0px);
+      fill: #F24405;
+      box-shadow: 30px 30px 10px 10px rgba(0, 0, 0, 5.9)
+    }
+
+    .st2 {  stroke: #ffffff;
+      stroke-width: 1.5px;
+      stroke-dasharray: 100;
+      stroke-dashoffset: 4000;
+      animation: object-2 90s linear alternate infinite, gofast 5s linear forwards infinite;
+    }
+
+    .st3 {  stroke: #ffffff;
+      stroke-width: 1.5px;
+      stroke-dasharray: 100;
+      stroke-dashoffset: 4000;
+      animation: object-3 110s linear forwards infinite, gofast 5s linear forwards infinite;
+      transform: translate(0px, 0px);
+      box-shadow: 30px 30px 10px 10px rgba(0, 0, 0, 5.9)
+    }
+
+    .st4 {  stroke: #5670BF;
+      stroke-width: 1.5px;
+      stroke-dasharray: 100;
+      stroke-dashoffset: 4000;
+      fill: #ffffff;
+      animation: object-4 60s linear reverse infinite, gofast 5s linear forwards infinite;
+      transform: translate(0px, 0px);
+      box-shadow: 30px 30px 10px 10px rgba(0, 0, 0, 5.9)
+    }
+
+    .st5 {  stroke: #fff;
+      stroke-width: 1.5px;
+      stroke-dasharray: 100;
+      stroke-dashoffset: 4000;
+      animation: object-5 80s linear alternate infinite, gofast 5s linear forwards infinite;
+      transform: translate(0px, 0px);
+      fill: #F24405;
+      box-shadow: 30px 30px 10px 10px rgba(0, 0, 0, 5.9)
+    }
+
+    .st0,
+    .st2 {  stroke: #5670BF;
+      stroke-width: 1.5px;
+      stroke-dasharray: 100;
+      stroke-dashoffset: 4000;
+      transform: translate(0px, 0px);
+      fill: rgb(0, 0, 0);
+      box-shadow: 30px 30px 10px 10px rgba(0, 0, 0, 5.9)
+    }
+
+    .st77 {  stroke: #ffffff;
+      stroke-width: 1.5px;
+      stroke-dasharray: 100;
+      stroke-dashoffset: 4000;
+      animation: object-0 100s linear normal infinite, gofast 5s linear forwards infinite;
+    }
+
+    .st66 {  stroke: #F24405;
+      stroke-width: 1.5px;
+      stroke-dasharray: 100;
+      stroke-dashoffset: 4000;
+      animation: object-1 80s linear infinite, gofast 5s linear forwards infinite;
+      transform: translate(0px, 0px);
+      fill: #fff;
+      box-shadow: 30px 30px 10px 10px rgba(0, 0, 0, 5.9)
+    }
+
+    .st55 {  stroke: #ffffff;
+      stroke-width: 1.5px;
+      stroke-dasharray: 100;
+      stroke-dashoffset: 4000;
+      animation: object-2 90s linear alternate infinite, gofast 5s linear forwards infinite;
+    }
+
+    .st44 {  stroke: #ffffff;
+      stroke-width: 1.5px;
+      stroke-dasharray: 100;
+      stroke-dashoffset: 4000;
+      animation: object-3 110s linear forwards infinite, gofast 5s linear forwards infinite;
+      transform: translate(0px, 0px);
+      box-shadow: 30px 30px 10px 10px rgba(0, 0, 0, 5.9)
+    }
+
+    .st33 {  stroke: #F24405;
+      stroke-width: 1.5px;
+      stroke-dasharray: 100;
+      stroke-dashoffset: 4000;
+      fill: #fff;
+      animation: object-4 60s linear reverse infinite, gofast 5s linear forwards infinite;
+      transform: translate(0px, 0px);
+      box-shadow: 30px 30px 10px 10px rgba(0, 0, 0, 5.9)
+    }
+
+    .st22 {
+      stroke: #F24405;
+      stroke-width: 1.5px;
+      stroke-dasharray: 100;
+      stroke-dashoffset: 4000;
+
+      animation: object-5 80s linear alternate infinite, gofast 5s linear forwards infinite;
+      transform: translate(0px, 0px);
+      fill: #fff;
+      box-shadow: 30px 30px 10px 10px rgba(0, 0, 0, 5.9)
+    }
+
+    .st22,
+    .st44 {
+      transform: translate(0px, 0px);
+      fill: rgb(255, 255, 255);
+      box-shadow: 30px 30px 10px 10px rgba(0, 0, 0, 5.9)
+    }
+
+    .racer {
+      stroke: #ffffff;
+      stroke-width: 1.5px;
+      stroke-dasharray: 100;
+      stroke-dashoffset: 4000;
+      animation:  gofast 5s forwards infinite;
+    }
+
+    @keyframes gofast {
+      0% {
+        stroke-dashoffset: 4000
+      }
+
+      100% {
+        stroke-dashoffset: 0
+      }
+    }
+
+    @keyframes object-0 {
+      0% {
+        transform: translate(0px, 0px)
+      }
+
+      25% {
+        transform: translate(0px, 500px)
+      }
+
+      50% {
+        transform: translate(0px, -500px)
+      }
+
+      75% {
+        transform: translate(0px, 500px)
+      }
+
+      100% {
+        transform: translate(0px, 0px)
+      }
+    }
+
+    @keyframes object-1 {
+      0% {
+        transform: translate(0px, -1000px)
+      }
+
+      25% {
+        transform: translate(-500px, -1000px)
+      }
+
+      50% {
+        transform: translate(-500px, -300px)
+      }
+
+      75% {
+        transform: translate(0px, -300px)
+      }
+
+      100% {
+        transform: translate(0px, 1000px)
+      }
+    }
+
+    @keyframes object-2 {
+      0% {
+        transform: translate(0px, 500px)
+      }
+
+      25% {
+        transform: translate(0px, 0px)
+      }
+
+      50% {
+        transform: translate(0px, -500px)
+      }
+
+      75% {
+        transform: translate(0px, 500px)
+      }
+
+      100% {
+        transform: translate(0px, 0px)
+      }
+    }
+
+    @keyframes object-3 {
+      0% {
+        transform: translate(0px, 0px)
+      }
+
+      25% {
+        transform: translate(700px, 0px)
+      }
+
+      50% {
+        transform: translate(700px, 500px)
+      }
+
+      75% {
+        transform: translate(0px, 500px)
+      }
+
+      100% {
+        transform: translate(0px, 0px)
+      }
+    }
+
+    @keyframes object-4 {
+      0% {
+        transform: translate(0px, 0px)
+      }
+
+      25% {
+        transform: translate(-800px, 0px)
+      }
+
+      50% {
+        transform: translate(-800px, 500px)
+      }
+
+      75% {
+        transform: translate(-800px, 0px)
+      }
+
+      100% {
+        transform: translate(0px, 0px)
+      }
+    }
+
+    @keyframes object-5 {
+      0% {
+        transform: translate(200px, -400px)
+      }
+
+      25% {
+        transform: translate(-1200px, -400px)
+      }
+
+      50% {
+        transform: translate(-1200px, 400px)
+      }
+
+      75% {
+        transform: translate(200px, -600px)
+      }
+
+      100% {
+        transform: translate(0px, -400px)
+      }
+    }
+  </style>
+  <path class="st22 gofast" d="M575,691H265c-6.6,0-12-5.4-12-12V369c0-6.6,5.4-12,12-12h310c6.6,0,12,5.4,12,12v310 C587,685.6,581.6,691,575,691z M582,678.7V369.3c0-4-3.3-7.3-7.3-7.3H265.3c-4,0-7.3,3.3-7.3,7.3v309.4c0,4,3.3,7.3,7.3,7.3h309.4 C578.7,686,582,682.7,582,678.7z" />
+  <path class="st33 gofast" d="M887,981H683c-6.6,0-12-5.4-12-12V765c0-6.6,5.4-12,12-12h204c6.6,0,12,5.4,12,12v204 C899,975.6,893.6,981,887,981z M895.6,970.3V763.7c0-4-3.3-7.3-7.3-7.3H681.7c-4,0-7.3,3.3-7.3,7.3v206.6c0,4,3.3,7.3,7.3,7.3 h206.6C892.3,977.6,895.6,974.3,895.6,970.3z" />
+  <path class="st44 gofast" d="M1029,360H911c-6.6,0-12-5.4-12-12V230c0-6.6,5.4-12,12-12h118c6.6,0,12,5.4,12,12v118 C1041,354.6,1035.6,360,1029,360z M1038.9,350.6V227.4c0-4-3.3-7.3-7.3-7.3H908.4c-4,0-7.3,3.3-7.3,7.3v123.1c0,4,3.3,7.3,7.3,7.3 h123.1C1035.6,357.9,1038.9,354.6,1038.9,350.6z" />
+  <path class="st55 gofast" d="M317,218H199c-6.6,0-12-5.4-12-12V88c0-6.6,5.4-12,12-12h118c6.6,0,12,5.4,12,12v118 C329,212.6,323.6,218,317,218z M326.9,208.6V85.4c0-4-3.3-7.3-7.3-7.3H196.4c-4,0-7.3,3.3-7.3,7.3v123.1c0,4,3.3,7.3,7.3,7.3 h123.1C323.6,215.9,326.9,212.6,326.9,208.6z" />
+  <path class="st66 gofast" d="M1750,304h-204c-6.6,0-12-5.4-12-12V88c0-6.6,5.4-12,12-12h204c6.6,0,12,5.4,12,12v204 C1762,298.6,1756.6,304,1750,304z M1758.6,293.3V86.7c0-4-3.3-7.3-7.3-7.3h-206.6c-4,0-7.3,3.3-7.3,7.3v206.6c0,4,3.3,7.3,7.3,7.3 h206.6C1755.3,300.6,1758.6,297.3,1758.6,293.3z" />
+  <path class="st77 gofast" d="M1750,972h-310c-6.6,0-12-5.4-12-12V650c0-6.6,5.4-12,12-12h310c6.6,0,12,5.4,12,12v310 C1762,966.6,1756.6,972,1750,972z M1757,959.7V650.3c0-4-3.3-7.3-7.3-7.3h-309.4c-4,0-7.3,3.3-7.3,7.3v309.4c0,4,3.3,7.3,7.3,7.3 h309.4C1753.7,967,1757,963.7,1757,959.7z" />
+  <path class="st0 gofast" d="M575,691H265c-6.6,0-12-5.4-12-12V369c0-6.6,5.4-12,12-12h310c6.6,0,12,5.4,12,12v310 C587,685.6,581.6,691,575,691z M582,678.7V369.3c0-4-3.3-7.3-7.3-7.3H265.3c-4,0-7.3,3.3-7.3,7.3v309.4c0,4,3.3,7.3,7.3,7.3h309.4 C578.7,686,582,682.7,582,678.7z" />
+  <path class="st1 gofast" d="M887,981H683c-6.6,0-12-5.4-12-12V765c0-6.6,5.4-12,12-12h204c6.6,0,12,5.4,12,12v204 C899,975.6,893.6,981,887,981z M895.6,970.3V763.7c0-4-3.3-7.3-7.3-7.3H681.7c-4,0-7.3,3.3-7.3,7.3v206.6c0,4,3.3,7.3,7.3,7.3 h206.6C892.3,977.6,895.6,974.3,895.6,970.3z" />
+  <path class="st2 gofast" d="M1029,360H911c-6.6,0-12-5.4-12-12V230c0-6.6,5.4-12,12-12h118c6.6,0,12,5.4,12,12v118 C1041,354.6,1035.6,360,1029,360z M1038.9,350.6V227.4c0-4-3.3-7.3-7.3-7.3H908.4c-4,0-7.3,3.3-7.3,7.3v123.1c0,4,3.3,7.3,7.3,7.3 h123.1C1035.6,357.9,1038.9,354.6,1038.9,350.6z" />
+  <path class="st3 gofast" d="M317,218H199c-6.6,0-12-5.4-12-12V88c0-6.6,5.4-12,12-12h118c6.6,0,12,5.4,12,12v118 C329,212.6,323.6,218,317,218z M326.9,208.6V85.4c0-4-3.3-7.3-7.3-7.3H196.4c-4,0-7.3,3.3-7.3,7.3v123.1c0,4,3.3,7.3,7.3,7.3 h123.1C323.6,215.9,326.9,212.6,326.9,208.6z" />
+  <path class="st4 gofast" d="M1750,304h-204c-6.6,0-12-5.4-12-12V88c0-6.6,5.4-12,12-12h204c6.6,0,12,5.4,12,12v204 C1762,298.6,1756.6,304,1750,304z M1758.6,293.3V86.7c0-4-3.3-7.3-7.3-7.3h-206.6c-4,0-7.3,3.3-7.3,7.3v206.6c0,4,3.3,7.3,7.3,7.3 h206.6C1755.3,300.6,1758.6,297.3,1758.6,293.3z" />
+  <path class="st5 gofast" d="M1750,972h-310c-6.6,0-12-5.4-12-12V650c0-6.6,5.4-12,12-12h310c6.6,0,12,5.4,12,12v310 C1762,966.6,1756.6,972,1750,972z M1757,959.7V650.3c0-4-3.3-7.3-7.3-7.3h-309.4c-4,0-7.3,3.3-7.3,7.3v309.4c0,4,3.3,7.3,7.3,7.3 h309.4C1753.7,967,1757,963.7,1757,959.7z" />
+</svg>
+
+</html>
